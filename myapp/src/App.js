@@ -40,7 +40,7 @@ function App() {
       {loading && <p>Loading data...</p>}
       {error && <p>{error}</p>}
       {weatherData && (
-        <div className="weather-card">
+        <div className="weather-cards">
           <h2>{weatherData.location.name}</h2>
           <p>Temperature: {weatherData.current.temp_c}°C</p>
           <p>Humidity: {weatherData.current.humidity}%</p>
